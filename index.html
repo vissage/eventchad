@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chad talk</title>
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css.css">
+</head>
+<body>
+    <header>
+        <div class="cliente">
+                    <div class="content-customer-support">
+                        <span class="text">Consultas o horarios</span>
+                        <BR>
+                        <span class="number">123-456-7890</span>
+                     </div>
+
+                <div>
+                <h1 class="logo">Chadtalk</h1>
+                </div>
+                </div>
+            </div>
+        </div>
+
+    <nav>
+        <button class="navbutton" onclick="accion()">Inicio</button>
+        <a class="navegador none" href="index.html">Inicio</a>
+        <a class="navegador none" href="#">Sobre nosotros</a>
+        <a class="navegador none" href="#">Contactos</a>
+    </nav>
+    <div >
+        <h1 class="bienvenida">
+            ¡No te pierdas la proxima fecha de Chad-Talk!
+        </h1>
+        <h2>El primer evento hecho por estudiantes para estudiantes de Realico!</h2>
+
+        <img class="img1" src="conferencia.jpg" class="img"  width="500">
+        <img class="img2" src="conferencia2.webp" class="img"  width="500">
+
+        <p class="presencia">Este 31 de Febrero sumate a este evento lleno de conocimiento y profesionales</p>
+        <p class="presencia">Formaran parte de este evento:</p>
+        <ul>
+            <li>Juan Vicente (Experto en textiles)</li>
+            <li>Jose Montero (Especialista en contenidos para adultos)</li>
+            <li>Julian Garcia (Traumatologo)</li>
+            <li>Micaela Cantilo (Productora musical)</li>
+            <li>Martin Galperin (Ejecutivo de Mercado Preso)</li>
+            <li>Lucia Lucil Lucero de Lucel (Experta en cultura popular y historia antropologica oriental)</li>
+            <li>Ciro Pellicciotta (Ex-convicto por evasion fiscal)</li>
+            <li>Entre muchos mas!!</li>
+        </ul>
+
+        <h2 class="horarios">Horarios Jueves 30 de 7:00 a 18:20 y Viernes 31 de Febrero 9:05 a 12:50</h2>
+
+        <h3 class="videos">Estas son unas de las charlas anteriores</h3>
+
+        <iframe class="iframe" width="560" height="315" src="https://www.youtube.com/embed/6Af6b_wyiwI?si=EHMRcKzd1NEvsthb" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+        <iframe class="iframe" width="560" height="315" src="https://www.youtube.com/embed/CLCJaiyjKkc?si=zfJuHmjWfU-zEItD" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+    
+    </div>
+
+    <br>
+
+<div class="copyright">
+    <p>
+        Desarrollado por Mateo Gamalero &copy; 2024
+    </p>
+    <script>
+        function accion(){
+            console.log("el boton funca")
+            var ancla = document.getElementsByClassName("navegador")
+            for(var i = 0; i < ancla.length; i++){
+                ancla[i].classList.toggle("none");
+            }
+        }
+    </script>
+    </body>
+</html>
